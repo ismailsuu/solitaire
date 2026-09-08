@@ -1,0 +1,77 @@
+# --- Python Geçici ve Derlenmiş Dosyaları ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Sanal Ortamlar (Virtual Environments) ---
+.venv/
+venv/
+ENV/
+env/
+# Ortam yönetim araçlarının (pipenv, poetry) geçici dosyaları
+.poetry/
+.pipenv/
+
+# --- Gizli Bilgiler ve Yapılandırma ---
+# Şifreler, API anahtarları vb. barındıran dosyalar kesinlikle repoya gitmemeli
+.env
+.env.secrets
+*.local
+
+# --- IDE ve Editör Ayarları ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# Diğer
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.dat
+
+# --- Test ve Kapsam (Coverage) Raporları ---
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# --- Paketleme ve Dağıtım Dosyaları ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- İşletim Sistemi Geçici Dosyaları ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
